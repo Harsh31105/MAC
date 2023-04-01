@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.column {
+    align-items: center;
+    width: 17%;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 19%;
+    height: 200px;
+    padding: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+th,
+td,
+tr {
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    padding-right: 15px;
+}

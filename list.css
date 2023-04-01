@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+th,
+td,
+tr {
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    padding-right: 15px;
+}
